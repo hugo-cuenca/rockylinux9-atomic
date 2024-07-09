@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
 name: rockylinux9-atomic
 # description will be included in the image's metadata
-description: Rocky Linux 9 (atomic).
+description: Rocky Linux 9 (atomic)
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: docker.io/rockylinux
