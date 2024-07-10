@@ -4,16 +4,12 @@ name: rockylinux9-atomic
 description: Rocky Linux 9 (atomic)
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: quay.io/rockylinux/rockylinux
-image-version: 9 # latest is also supported if you want new updates ASAP
+base-image: ghcr.io/hugo-cuenca/rockylinux-base-experimental
+image-version: 9-amd64
 
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
-  - type: script
-    snippets:
-      - "dnf -y in ostree"
-
   - type: files
     files:
       - usr: /usr # copies config/files/usr into your image's /usr.
