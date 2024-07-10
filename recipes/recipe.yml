@@ -4,7 +4,7 @@ name: rockylinux9-atomic
 description: Rocky Linux 9 (atomic)
 
 # the base image to build on top of (FROM) and the version tag to use
-base-image: docker.io/rockylinux
+base-image: quay.io/rockylinux/rockylinux
 image-version: 9 # latest is also supported if you want new updates ASAP
 
 # module configuration, executed in order
