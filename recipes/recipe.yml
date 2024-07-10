@@ -47,37 +47,37 @@ modules:
         - Roboto
         - Open Sans
 
-  # - type: default-flatpaks
-    # notify: true # Send notification after install/uninstall is finished (true/false)
-    # system:
+  - type: default-flatpaks
+    notify: true # Send notification after install/uninstall is finished (true/false)
+    system:
       # If no repo information is specified, Flathub will be used by default
       # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       # repo-name: flathub
       # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
-      # install:
-        # - org.gnome.Loupe
-        # - org.gnome.TextEditor
-        # - org.gnome.baobab
-        # - org.gnome.Calculator
-        # - org.gnome.font-viewer
-        # - org.gnome.clocks
-        # - org.gnome.Papers
-        # - org.gnome.Contacts
-        # - org.gnome.Characters
-        # - app.devsuite.Ptyxis
-        # - app.drey.Warp
-        # - com.belmoussaoui.Decoder
-        # - com.belmoussaoui.Obfuscate
-        # - com.github.tchx84.Flatseal
-        # - com.github.tenderowl.frog
-        # - com.mattjakeman.ExtensionManager
-        # - io.github.giantpinkrobots.flatsweep
-        # - io.github.ungoogled_software.ungoogled_chromium
-        # - io.missioncenter.MissionCenter
-        # - org.libreoffice.LibreOffice
-        # - org.videolan.VLC
-      # remove:
-        # - org.gnome.eog
+      install:
+        - org.gnome.Loupe
+        - org.gnome.TextEditor
+        - org.gnome.baobab
+        - org.gnome.Calculator
+        - org.gnome.font-viewer
+        - org.gnome.clocks
+        - org.gnome.Papers
+        - org.gnome.Contacts
+        - org.gnome.Characters
+        - app.devsuite.Ptyxis
+        - app.drey.Warp
+        - com.belmoussaoui.Decoder
+        - com.belmoussaoui.Obfuscate
+        - com.github.tchx84.Flatseal
+        - com.github.tenderowl.frog
+        - com.mattjakeman.ExtensionManager
+        - io.github.giantpinkrobots.flatsweep
+        - io.github.ungoogled_software.ungoogled_chromium
+        - io.missioncenter.MissionCenter
+        - org.libreoffice.LibreOffice
+        - org.videolan.VLC
+      remove:
+        - org.gnome.eog
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
